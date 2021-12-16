@@ -1,6 +1,6 @@
-Volume - Meta
+Volume 1 - Meta
 
-Book - Bibliography
+Book 1 - Bibliography
 
 The story title is "The Mystery of Silver Mountain".
 The story author is "Phil Howlett".
@@ -10,37 +10,37 @@ The release number is 1.
 The story description is "An adaption from the original game of [']The Mystery of Silver Mountain['] coding book located at https://usborne.com/au/books/computer-and-coding-books".
 The story creation year is 2021.
 
-Book - Release settings
+Book 2 - Release settings
 
 Release along with a website.
 Release along with an interpreter.
 
-Volume - Mechanics
+Volume 2 - Mechanics
 
-Book - Commands
+Book 1 - Commands
 
-Book - New Kinds
+Book 2 - New Kinds
 
-Book - Rules
+Book 3 - Rules
 
-Book - Actions
+Book 4 - Actions
  
-Volume - World
+Volume 3 - World
 
-Book - Intro
+Book 1 - Intro
 
 After printing the banner text, say "[line break]An adaption from the original game of [']The Mystery of Silver Mountain['] designed by Graham Round and published by Usborne. You can download the original book from the publisher's website located here: [italic type]https://usborne.com/au/books/computer-and-coding-books[roman type].[line break]"
 	
-Book - Characters
+Book 2 - Characters
 
-Book - Regions
+Book 3 - Regions
 
-Book - Rooms
+Book 4 - Rooms
 
 Void is a room.
 
-Book - Things
+Book 5 - Things
 
-Book - Backdrops
+Book 6 - Backdrops
 
-Volume - Testing and Debugging - Not for release
+Volume 4 - Testing and Debugging - Not for release
