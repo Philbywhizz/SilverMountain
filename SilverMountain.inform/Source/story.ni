@@ -114,324 +114,494 @@ Guard Room is a room.
 South of Guard Room is Kitchens of the Palace.
 West of Guard Room is Grarg Sentry Post.
 
-[ fix directions from this point forward]
-
 Part 11 - Marshy Inlet
 
 Marshy Inlet is a room.
-Marshy Inlet is north of Old Kiln. 
+
+South of Marshy Inlet is Old Kiln. 
 
 Part 12 - Rusty Gates
 
 Rusty Gates is a room.
-Rusty Gates is south of Goblin Graveyard.
+
+North of Rusty Gates is Goblin Graveyard.
 
 Part 13 - Gamekeeper's Cottage
 
 Gamekeeper's Cottage is a room.
-Gamekeeper's Cottage is north of Disused Waterwheel.
-Gamekeeper's Cottage is west of Misty Pool.
+
+East of Gamekeeper's Cottage is Misty Pool.
+South of Gamekeeper's Cottage is Disused Waterwheel.
 
 Part 14 - Misty Pool
 
 Misty Pool is a room.
-Misty Pool is north of Sluice Gates.
-Misty Pool is east of Gamekeeper's Cottage. 
+
+South of Misty Pool is Sluice Gates.
+West of Misty Pool is Gamekeeper's Cottage. 
 
 Part 15 - High-walled Garden
 
 High-walled Garden is a room.
-High-walled Garden is north of Gap between some Boulders.
+
+East of High-walled Garden is nowhere.
+South of High-walled Garden is Gap between some Boulders.
 
 Part 16 - Inscribed Cavern
 
 Inscribed Cavern is a room.
-Inscribed Cavern is east of High-walled Garden.
-Inscribed Cavern is south of Vaulted Cavern.
+
+North of Inscribed Cavern is Vaulted Cavern.
+West of Inscribed Cavern is High-walled Garden.
 
 Part 17 - Ornate Fountain
 
 Ornate Fountain is a room.
-Ornate Fountain is south of High Glass Gates.
+North of Ornate Fountain is High Glass Gates.
 
 Part 18 - Dank Corridor
 
 Dank Corridor is a room.
-Dank Corridor is south of Entrance Hall to the Palace.
+
+North of Dank Corridor is Entrance Hall to the Palace.
 
 Part 19 - Long Gallery
 
 Long Gallery is a room.
-Long Gallery is north of Banquet Hall.
-Long Gallery is west of Kitchens of the Palace.
+
+South of Long Gallery is Banquet Hall.
+
+East of Long Gallery is Kitchens of the Palace.
 
 Part 20 - Kitchens of the Palace
 
 Kitchens of the Palace is a room.
-Kitchens of the Palace is north of Palace Battlements.
-Kitchens of the Palace is east of Long Gallery.
-Kitchens of the Palace is south of Guard Room.
+
+North of Kitchens of the Palace is Guard Room.
+South of Kitchens of the Palace is Palace Battlements.
+West of Kitchens of the Palace is Long Gallery.
 
 Part 21 - Old Kiln
 
 Old Kiln is a room.
-Old Kiln is north of Island shore.
-Old Kiln is south of Marshy Inlet
+
+North of Old Kiln is Marshy Inlet.
+South of Old Kiln is Island shore.
 
 Part 22 - Overgrown Track
 
 Overgrown Track is a room.
-Overgrown Track is west of Disused Waterwheel.
+
+East of Overgrown Track is Disused Waterwheel.
  
 Part 23 - Disused Waterwheel
 
 Disused Waterwheel is a room.
-Disused Waterwheel is north of Barren Countryside.
-Disused Waterwheel is east of Overgrown Track.
-Disused Waterwheel is south of Gamekeeper's Cottage.
+
+South of Disused Waterwheel is Barren Countryside.
+West of Disused Waterwheel is Overgrown Track.
+North of Disused Waterwheel is Gamekeeper's Cottage.
 
 Part 24 - Sluice Gates
 
 Sluice Gates is a room.
-Sluice Gates is south of Misty Pool.
+
+North of Sluice Gates is Misty Pool.
 
 Part 25 - Gap between some Boulders
 
 Gap between some Boulders is a room.
-Gap between some Boulders is north of Frozen Pond.
-Gap between some Boulders is south of High-walled Garden.
-Gap between some Boulders is west of Perilous Path.
+
+North of Gap between some Boulders is High-walled Garden.
+East of Gap between some Boulders is Perilous Path.
+South of Gap between some Boulders is Frozen Pond.
 
 Part 26 - Perilous Path
 
 Perilous Path is a room.
-Perilous Path is east of Gap between some Boulders.
-Perilous Path is west of Silver Bell in the Rock.
+
+East of Perilous Path is Silver Bell in the Rock.
+West of Perilous Path is Gap between some Boulders.
 
 Part 27 - Silver Bell in the Rock
 
 Silver Bell in the Rock is a room.
-Silver Bell in the Rock is east of Perilous Path. 
+
+West of Silver Bell in the Rock is Perilous Path. 
 
 Part 28 - Dungeons of the Palace
 
 Dungeons of the Palace is a room.
-Dungeons of the Palace is north of Wine Cellar.
+
+South of Dungeons of the Palace is Wine Cellar.
 
 Part 29 - Banquet Hall
 
 Banquet Hall is a room.
-Banquet Hall is north of Hall of Tapestries.
-Banquet Hall is south of Long Gallery.
+
+North of Banquet Hall is Long Gallery.
+South of Banquet Hall is Hall of Tapestries.
 
 Part 30 - Palace Battlements
 
 Palace Battlements is a room.
-Palace Battlements is south of Kitchens of the Palace.
+
+North of Palace Battlements is Kitchens of the Palace.
 
 Part 31 - Island Shore
 
 Island Shore is a room.
-Island Shore is north of Rough Water.
-Island Shore is west of Beached Ketch.
-Island Shore is south of Old Kiln.
+
+North of Island Shore is Old Kiln.
+East of Island Shore is Beached Ketch.
+South of Island Shore is Rough Water.
 
 Part 32 - Beached Ketch
 
 Beached Ketch is a room.
+
 West from Beached Ketch is Island Shore.
 
 Part 33 - Barren Countryside
 
 Barren Countryside is a room.
 
+North of Barren Countryside is Disused Waterwheel.
+South of Barren Countryside is Outside a Windmill.
+
 Part 34 - Sacks on the Upper Floor
 
-Sacks on the Upper Floor is a room.
+Sacks on The Upper Floor is a room.
+
+Down from The Upper Floor is Lower Floor of the Mill.
 
 Part 35 - Frozen Pond
 
 Frozen Pond is a room.
 
+North of Frozen Pond is Gap between some Boulders.
+East of Frozen Pond is Mountain Hut.
+South of Frozen Pond is Icy Path.
+Down from Frozen Pond is nowhere.
+
 Part 36 - Mountain Hut
 
 Mountain Hut is a room.
+
+South of Mountain Hut is Scree Slope.
+West of Mountain Hut is Frozen Pond.
 
 Part 37 - Row of Casks
 
 Row of Casks is a room.
 
+East of Row of Casks is Wine Cellar.
+
 Part 38 - Wine Cellar
 
 Wine Cellar is a room.
+
+North of Wine Cellar is Dungeons of the Palace.
+West of Wine Cellar is row of Casks.
 
 Part 39 - Hall of Tapestries 
 
 Hall of Tapestries is a room.
 
+North of Hall of Tapestries is Banquet Hall.
+South of Hall of Tapestries is Mosaic floored Hall.
+
 Part 40 - Dusty Library
 
 Dusty Library is a room.
+
+South of Dusty Library is Silver Throne Room.
 
 Part 41 - Rough Water
 
 Rough Water is a room.
 
+North of Rough Water is Island Shore.
+South of Rough Water is Middle of the Lake.
+
 Part 42 - Ploughed Field
 
 Ploughed Field is a room.
+
+East of Ploughed Field is Outside a Windmill.
 
 Part 43 - Outside a Windmill
 
 Outside a Windmill is a room.
 
+North of Outside a Windmill is Barren Countryside.
+East of Outside a Windmill is Lower Floor of the Mill.
+South of Outside a Windmill is Pitted Track.
+West of Outside a Windmill is Ploughed Field.
+
 Part 44 - Lower Floor of the Mill
 
 Lower Floor of the Mill is a room.
+
+West of Lower Floor of the Mill is Outside a Windmill.
+Up from Lower Floor of the Mill is Sacks on The Upper Floor.
 
 Part 45 - Icy Path
 
 Icy Path is a room.
 
+North from Icy Path is nowhere.
+South from Icy Path is nowhere.
+Up from Icy Path is Frozen Pond.
+Down from Icy Path is Glacier.
+
 Part 46 - Scree Slope
 
 Scree Slope is a room.
+
+North from Scree Slope is Mountain Hut.
+South from Scree Slope is Huge Fallen Oak.
 
 Part 47 - Silver Chamber
 
 Silver Chamber is a room.
 
+East of Silver Chamber is Wizard's Lair.
+
 Part 48 - Wizard's Lair
 
 Wizard's Lair is a room.
+
+South of Wizard's Lair is Cobwebby Room.
+West of Wizard's Lair is Silver Chamber.
 
 Part 49 - Mosaic floored Hall
 
 Mosaic floored Hall is a room.
 
+North of Mosaic floored Hall is Hall of Tapestries.
+East of Mosaic floored Hall is Silver Throne Room.
+South of Mosaic floored Hall is Safe in Ogban's Chambers.
+
 Part 50 - Silver Throne Room
 
 Silver Throne Room is a room.
+
+North of Silver Throne Room is Dusty Library.
+West of Silver Throne Room is Mosaic floored Hall.
 
 Part 51 - Middle of the Lake
 
 Middle of the Lake is a room.
 
+North of Middle of the Lake is Rough Water.
+East of Middle of the Lake is Edge of an Icy Lake.
+
 Part 52 - Edge of an Icy Lake
 
 Edge of an Icy Lake is a room.
+
+East of Edge of an Icy Lake is Pitted Track.
+West of an Edge of an Icy Lake is Middle of the Lake. 
 
 Part 53 - Pitted Track
 
 Pitted Track is a room.
 
+North of Pitted Track is Outside a Windmill.
+South of Pitted Track is Woodman's Hut.
+West of Pitted Track is Edge of an Icy Lake.
+
 Part 54 - High Pinnacle
 
 High Pinnacle is a room.
+
+East of High Pinnacle is Glacier.
 
 Part 55 - Above a Glacier
 
 Glacier is a room.
 
+North of Glacier is Icy Path.
+West of Glacier is High Pinnacle.
+Up from Glacier is nowhere.
+
 Part 56 - Huge Fallen Oak
 
 Huge Fallen Oak is a room.
+
+South of Huge Fallen Oak is Deep Dark Wood.
 
 Part 57 - Turret Room with a Slot Machine
 
 Turret Room is a room.
 
+East of Turret Room is Cobwebby Room.
+
 Part 58 - Cobwebby Room
 
 Cobwebby Room is a room.
+
+North of Cobwebby Room is Wizard's Lair.
+East of Cobwebby room is Safe in Ogban's Chambers.
+West of Cobwebby Room is Turret Room.
 
 Part 59 - Safe in Ogban's Chambers
 
 Safe in Ogban's Chambers is a room.
 
+North of Safe in Ogban's Chambers is Mosaic floored Hall.
+West of Safe in Ogban's Chambers is Cobwebby Room.
+
 Part 60 - Cupboard in a corner
 
 Cupboard in a Corner is a room.
+
+South of Cupboard in a Corner is Attic Bedroom.
 
 Part 61 - Narrow Passage
 
 Narrow Passage is a room.
 
+East of Narrow Passage is Cave.
+South of Narrow Passage is Damp Well Bottom.
+
 Part 62 - Cave
 
 Cave is a room.
+
+South of Cave is Top of a Deep Well.
+West of Cave is Narrow Passage.
 
 Part 63 - Woodman's Hut
 
 Woodman's Hut is a room.
 
+North of Woodman's Hut is Pitted Track.
+East of Woodman's Hut is Side of a Wooded Valley.
+South of Woodman's Hut is Burnt-out Campfire.
+
 Part 64 - Side of a Wooded Valley
 
 Side of a Wooded Valley is a room.
+
+East of Side of a Wooded Valley is Stream in a Valley Bottom.
+West of Side of a Wooded Valley is Woodman's Hut.
 
 Part 65 - Stream in a Valley Bottom
 
 Stream in a Valley Bottom is a room.
 
+South of Stream in a Valley Bottom is Western end of a Bridge. 
+West of  Stream in a Valley Bottom is Side of a Wooded Valley.
+
 Part 66 - Deep Dark Wood
 
 Deep Dark Wood is a room.
+
+North of Deep Dark Wood is Huge Fallen Oak.
+East of Deep Dark Wood is Shady Hollow.
 
 Part 67 - Shady Hollow
 
 Shady Hollow is a room.
 
+East of Shady Hollow is Ancient Stone Circle.
+West of Shady Hollow is Deep Dark Wood.
+
 Part 68 - Ancient Stone Circle
 
 Ancient Stone Circle is a room.
+
+East of Ancient Stone Circle is Stable.
+South of Ancient Stone Circle is Winding Road.
+West of Ancient Stone Circle is Shady Hollow.
 
 Part 69 - Stable
 
 Stable is a room.
 
+South of Stable is Village of Rustic Houses.
+West of Stable is Ancient Stone Circle.
+
 Part 70 - Attic Bedroom
 
 Attic Bedroom is a room.
+
+North of Attic Bedroom is Cupboard in a corner.
+Down from Attic Bedroom is White Cottage.
 
 Part 71 - Damp Well Bottom
 
 Damp Well Bottom is a room.
 
+North of Damp Well Bottom is nowhere.
+
 Part 72 - Top of a Deep Well
 
 Top of a Deep Well is a room.
+
+East of Top of a Deep Well is Burnt-out Campfire.
 
 Part 73 - Burnt-out Campfire
 
 Burnt-out Campfire is a room.
 
+North of Burnt-out Campfire is Woodman's Hut.
+East of Burnt-out Campfire is Orchard.
+West of Burnt-out Campfire is Top of a Deep Well.
+
 Part 74 - Orchard
 
 Orchard is a room.
 
-Part 75 - West end of a Bridge
+East of Orchard is Western end of a Bridge.
+West of Orchard is Burnt-out Campfire.
 
-West end of a Bridge is a room.
+Part 75 - Western end of a Bridge
 
-Part 76 - East end of a Bridge
+Western end of a Bridge is a room.
 
-East end of a Bridge is a room.
+North of Western end of a Bridge is Stream in a Valley Bottom.
+East of Western end of a Bridge is Eastern end of a Bridge.
+West of Western end of a Bridge is Orchard.
+
+Part 76 - Eastern end of a Bridge
+
+Eastern end of a Bridge is a room.
+
+East of Eastern end of a Bridge is Crossroads. 
+West of Eastern end of a Bridge is Western end of a Bridge.
 
 Part 77 - Crossroads
 
 Crossroads is a room.
 
+East of Crossroads is Winding Road.
+West of Crossroads is Eastern end of a Bridge.
+
 Part 78 - Winding Road
 
 Winding Road is a room.
+
+North of Winding Road is Ancient Stone Circle.
+East of Winding Road is Village of Rustic Houses.
+West of Winding Road is Crossroads.
 
 Part 79 - Village of Rustic Houses
 
 Village of Rustic Houses is a room.
 
+North of Village of Rustic Houses is Stable.
+East of Village of Rustic Houses is White Cottage.
+West of Village of Rustic Houses is Winding Road.
+
 Part 80 - White Cottage
 
 White Cottage is a room.
+
+West of White Cottage is Village of Rustic Houses.
+Up from White Cottage is Attic Bedroom.
 
 Book 5 - Things
 
