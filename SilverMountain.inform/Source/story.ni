@@ -90,17 +90,24 @@ Part 10 - Hound
 
 Book 3 - Regions
 
+The island is a region.
+The Palace is a region.
+The Graveyard is a region.
+The Village is a region.
+
 Book 4 - Rooms
 
 Part 1 - Half-dug Grave
 
 Half-dug Grave is a room. "You are in a half-dug grave."
+Half-dug Grave is in the Graveyard.
 
 East of Half-dug Grave is Goblin Graveyard.
 
 Part 2 - Goblin Graveyard
 
 Goblin Graveyard is a room. "You are in the goblin graveyard."
+Goblin Graveyard is in the Graveyard.
 
 East of Goblin Graveyard is Hollow Tomb.
 South of Goblin Graveyard is Rusty Gates.
@@ -109,6 +116,7 @@ West of Goblin Graveyard is Half-dug Grave.
 Part 3 - Hollow tomb
 
 Hollow Tomb is a room. "You are in a hollow tomb."
+Hollow Tomb is in the Graveyard.
 
 East of Hollow tomb is Stalacites Stalagmites. [rubble blocks path]
 West of Hollow Tomb is Goblin Graveyard.
@@ -149,6 +157,7 @@ West of High Glass Gates is Vaulted Cavern.
 Part 8 - Entrance Hall to the Palace
 
 Entrance Hall to the Palace is a room. "You are in the entrance hall to the palace."
+Entrance Hall to the Palace is in the Palace.
 
 South of Entrance Hall to the Palace is Dank Corridor.
 East of Entrance Hall to the Palace is Grarg Sentry Post.
@@ -157,6 +166,7 @@ West of Entrance Hall to the Palace is nowhere. [hound blocks west].
 Part 9 - Grarg Sentry Post
 
 Grarg Sentry Post is a room. "You are by a grarg sentry post."
+Grarg Sentry Post is in the Palace.
 
 East of Grarg Sentry Post is Guard Room.
 West of Grarg Sentry Post is Entrance Hall to the Palace.
@@ -164,6 +174,7 @@ West of Grarg Sentry Post is Entrance Hall to the Palace.
 Part 10 - Guard Room
 
 Guard Room is a room. "You are in the guard room."
+Guard Room is in the Palace.
 
 South of Guard Room is Kitchens of the Palace.
 West of Guard Room is Grarg Sentry Post.
@@ -171,12 +182,14 @@ West of Guard Room is Grarg Sentry Post.
 Part 11 - Marshy Inlet
 
 Marshy Inlet is a room. "You are by a marshy inlet."
+Marshy Inlet is in the Island.
 
 South of Marshy Inlet is Old Kiln. 
 
 Part 12 - Rusty Gates
 
 Rusty Gates is a room. "You are near some rusty gates."
+Rusty Gates is in the Graveyard.
 
 North of Rusty Gates is Goblin Graveyard.
 
@@ -218,6 +231,7 @@ North of Ornate Fountain is High Glass Gates.
 Part 18 - Dank Corridor
 
 Dank Corridor is a room. "You are in a dank corridor."
+Dank Corridor is in the Palace.
 
 North of Dank Corridor is Entrance Hall to the Palace.
 South of Dank Corridor is nowhere. [Blocked by door to the south unblocked by axe]
@@ -225,6 +239,7 @@ South of Dank Corridor is nowhere. [Blocked by door to the south unblocked by ax
 Part 19 - Long Gallery
 
 Long Gallery is a room. "You are in the long gallery."
+Long Gallery is in the Palace.
 
 South of Long Gallery is Banquet Hall.
 
@@ -233,6 +248,7 @@ East of Long Gallery is Kitchens of the Palace.
 Part 20 - Kitchens of the Palace
 
 Kitchens of the Palace is a room. "You are in the kitchens of the palace."
+Kitchens of the Palace is in the Palace.
 
 North of Kitchens of the Palace is Guard Room.
 South of Kitchens of the Palace is Palace Battlements.
@@ -241,6 +257,7 @@ West of Kitchens of the Palace is Long Gallery.
 Part 21 - Old Kiln
 
 Old Kiln is a room. "You are by an old kiln."
+Old Kiln is in the Island.
 
 North of Old Kiln is Marshy Inlet.
 South of Old Kiln is Island shore.
@@ -291,6 +308,7 @@ West of Silver Bell in the Rock is Perilous Path.
 Part 28 - Dungeons of the Palace
 
 Dungeons of the Palace is a room. "You are in the dungeons of the palace."
+Dungeons of the Palace is in the Palace.
 
 South of Dungeons of the Palace is Wine Cellar.
 North of Dungeons of the Palace is Dank Corridor.
@@ -298,6 +316,7 @@ North of Dungeons of the Palace is Dank Corridor.
 Part 29 - Banquet Hall
 
 Banquet Hall is a room. "You are in a banqueting hall."
+Banquet Hall is in the Palace.
 
 North of Banquet Hall is Long Gallery.
 South of Banquet Hall is Hall of Tapestries. [wearing uniform check]
@@ -306,12 +325,14 @@ South of Banquet Hall is Hall of Tapestries. [wearing uniform check]
 Part 30 - Palace Battlements
 
 Palace Battlements is a room. "You are on the palace battlements."
+Palace Battlements is in the palace.
 
 North of Palace Battlements is Kitchens of the Palace.
 
 Part 31 - Island Shore
 
 Island Shore is a room. "You are on an island shore."
+Island Shore is in the Island.
 
 North of Island Shore is Old Kiln.
 East of Island Shore is Beached Ketch.
@@ -320,6 +341,7 @@ South of Island Shore is Rough Water.
 Part 32 - Beached Ketch
 
 Beached Ketch is a room. "You are by a beached ketch."
+Beached Ketch is in the island.
 
 West from Beached Ketch is Island Shore.
 
@@ -358,6 +380,7 @@ West of Mountain Hut is Frozen Pond.
 Part 37 - Row of Casks
 
 Row of Casks is a room. "You are by a row of casks."
+Row of Casks is in the Palace.
 
 East of Row of Casks is Wine Cellar.
 
@@ -367,6 +390,7 @@ East of Row of Casks is Wine Cellar.
 Part 38 - Wine Cellar
 
 Wine Cellar is a room. "You are in a wine cellar."
+Wine Cellar is in the Palace.
 
 North of Wine Cellar is Dungeons of the Palace.
 West of Wine Cellar is row of Casks.
@@ -378,6 +402,7 @@ West of Wine Cellar is row of Casks.
 Part 39 - Hall of Tapestries 
 
 Hall of Tapestries is a room. "You are in the hall of tapestries."
+Hall of Tapestries is in the Palace.
 
 North of Hall of Tapestries is Banquet Hall.
 South of Hall of Tapestries is Mosaic floored Hall.
@@ -385,6 +410,7 @@ South of Hall of Tapestries is Mosaic floored Hall.
 Part 40 - Dusty Library
 
 Dusty Library is a room. "You are in a dusty library."
+Dusty Library is in the Palace.
 
 South of Dusty Library is Silver Throne Room.
 
@@ -438,12 +464,14 @@ South from Scree Slope is Huge Fallen Oak.
 Part 47 - Silver Chamber
 
 Silver Chamber is a room. "You are in the silver chamber."
+Silver Chamber is in the Palace.
 
 East of Silver Chamber is Wizard's Lair.
 
 Part 48 - Wizard's Lair
 
 Wizard's Lair is a room. "You are in the wizard's lair."
+Wizard's Lair is in the Palace.
 
 South of Wizard's Lair is Cobwebby Room.
 West of Wizard's Lair is Silver Chamber. [door]
@@ -451,6 +479,7 @@ West of Wizard's Lair is Silver Chamber. [door]
 Part 49 - Mosaic floored Hall
 
 Mosaic floored Hall is a room. "You are in a mosaic-floored hall."
+Mosaic floored Hall is in the Palace.
 
 North of Mosaic floored Hall is Hall of Tapestries.
 East of Mosaic floored Hall is Silver Throne Room. [blocked by mysterious forcefield]
@@ -461,6 +490,7 @@ South of Mosaic floored Hall is Safe in Ogban's Chambers.
 Part 50 - Silver Throne Room
 
 Silver Throne Room is a room. "You are in the silver throne room."
+Silver Throne Room is in the Palace.
 
 North of Silver Throne Room is Dusty Library.
 West of Silver Throne Room is Mosaic floored Hall.
@@ -511,12 +541,14 @@ North of Huge Fallen Oak is nowhere. [Blocked by goblin guardian]
 Part 57 - Turret Room with a Slot Machine
 
 Turret Room is a room. "You are in a turret room with a slot machine."
+Turret Room is in the Palace.
 
 East of Turret Room is Cobwebby Room.
 
 Part 58 - Cobwebby Room
 
 Cobwebby Room is a room. "You are in a cobwebby room."
+Cobwebby Room is in the Palace.
 
 North of Cobwebby Room is Wizard's Lair. [blocked by cobwebs]
 East of Cobwebby room is Safe in Ogban's Chambers.
@@ -527,6 +559,7 @@ West of Cobwebby Room is Turret Room. [blocked by cobwebs]
 Part 59 - Safe in Ogban's Chambers
 
 Safe in Ogban's Chambers is a room. "You are by a safe in Ogban's chambers."
+Safe in Ogban's Chambers is in the Palace.
 
 North of Safe in Ogban's Chambers is Mosaic floored Hall.
 West of Safe in Ogban's Chambers is Cobwebby Room.
@@ -534,6 +567,7 @@ West of Safe in Ogban's Chambers is Cobwebby Room.
 Part 60 - Cupboard in a corner
 
 Cupboard is a room. "You are by a cupboard in a corner."
+Cupboard is in the Village.
 
 South of Cupboard is Attic Bedroom.
 
@@ -599,6 +633,7 @@ West of Ancient Stone Circle is Shady Hollow.
 Part 69 - Stable
 
 Stable is a room. "You are in a small stable."
+Stable is in the Village.
 
 South of Stable is Village of Rustic Houses.
 West of Stable is Ancient Stone Circle.
@@ -606,6 +641,7 @@ West of Stable is Ancient Stone Circle.
 Part 70 - Attic Bedroom
 
 Attic Bedroom is a room. "You are in an attic bedroom."
+Attic Bedroom is in the Village.
 
 North of Attic Bedroom is Cupboard.
 Down from Attic Bedroom is White Cottage.
@@ -670,6 +706,7 @@ West of Winding Road is Crossroads.
 Part 79 - Village of Rustic Houses
 
 Village of Rustic Houses is a room. "You are in a village of rustic houses."
+Village of Rustic Houses is in the Village.
 
 North of Village of Rustic Houses is Stable.
 East of Village of Rustic Houses is White Cottage.
@@ -678,6 +715,7 @@ West of Village of Rustic Houses is Winding Road.
 Part 80 - White Cottage
 
 White Cottage is a room. "You are in a white cottage."
+White Cottage is in the Village.
 
 [pot containing coins]
 
@@ -706,7 +744,7 @@ A horseshoe is in the Stable. [nailed on door]
 
 Part 5 - Apples
 
-Some apples are in the Orchard.
+Some apples are in the Orchard. Apples are edible.
 
 Part 6 - Bucket
 
@@ -789,7 +827,7 @@ A lamp is in Gamekeeper's Cottage.
 
 Part 24 - Bread
 
-Some bread is in White cottage
+Some bread is in White cottage. The bread is edible.
 
 Part 25 - Brooch
 
