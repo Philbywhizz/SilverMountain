@@ -1,3 +1,5 @@
+"The Mystery of Silver Mountain"
+
 Volume 1 - Meta
 
 Book 1 - Bibliography
@@ -455,9 +457,9 @@ West of Safe in Ogban's Chambers is Cobwebby Room.
 
 Part 60 - Cupboard in a corner
 
-Cupboard in a Corner is a room.
+Cupboard is a room.
 
-South of Cupboard in a Corner is Attic Bedroom.
+South of Cupboard is Attic Bedroom.
 
 Part 61 - Narrow Passage
 
@@ -528,7 +530,7 @@ Part 70 - Attic Bedroom
 
 Attic Bedroom is a room.
 
-North of Attic Bedroom is Cupboard in a corner.
+North of Attic Bedroom is Cupboard.
 Down from Attic Bedroom is White Cottage.
 
 Part 71 - Damp Well Bottom
@@ -604,6 +606,119 @@ West of White Cottage is Village of Rustic Houses.
 Up from White Cottage is Attic Bedroom.
 
 Book 5 - Things
+
+Part 1 - Coins
+
+Some coins are in the White Cottage.
+
+Part 2 - Sheet
+
+A sheet is in the Attic Bedroom.
+
+Part 3 - Boots
+
+Some boots are in the Cupboard.
+
+Part 4 - Horseshoe
+
+A horseshoe is in the Stable.
+
+Part 5 - Apples
+
+Some apples are in the Orchard.
+
+Part 6 - Bucket
+
+A bucket is in Top of a Deep Well.
+
+Part 7 - Axe
+
+An axe is in Woodman's Hut.
+
+Part 8 - Boat
+
+A boat is in Edge of an Icy Lake.
+
+Part 9 - Phial
+
+A phial is in Kitchens of the Palace.
+
+Part 10 - Reeds
+
+Some reeds are in Marshy Inlet.
+
+Part 11 - Bone
+
+A bone is in Half-dug Grave.
+
+Part 12 - Shield
+
+A shield is in Misty Pool.
+
+Part 13 - Planks
+
+Some planks are in Mountain Hut.
+
+Part 14 - Rope
+
+A rope is in High Pinnacle.
+
+Part 15 - Ring
+
+A ring is in Narrow Passage.
+
+Part 16 - Jug
+
+A jug is in Old Kiln.
+
+Part 17 - Net
+
+A net is in Beached Ketch.
+
+Part 18 - Sword
+
+A sword is in Guard Room.
+
+Part 19 - Silver Plate
+
+A silver plate is in Silver Throne Room.
+
+Part 20 - Uniform
+
+A uniform is in Banquet Hall.
+
+Part 21 - Key
+
+A key is in Safe in Ogban's chambers.
+
+Part 22 - Seeds
+
+Some seeds are in Sacks on the Upper Floor.
+
+Part 23 - Lamp
+
+A lamp is in Gamekeeper's Cottage.
+
+Part 24 - Bread
+
+Some bread is in White cottage
+
+Part 25 - Brooch
+
+A broach is in Palace Battlements.
+
+Part 26 - Matches
+
+[This doesn't seem right]
+Some matches are nowhere. 
+
+Part 27 - Stone of Destiny
+
+The Stone of Destiny is in Silver Chamber.
+
+Part 28 - Apple
+
+[An individual apple]
 
 Book 6 - Backdrops
 
