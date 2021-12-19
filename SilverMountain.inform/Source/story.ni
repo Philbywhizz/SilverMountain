@@ -380,23 +380,21 @@ West of Mountain Hut is Frozen Pond.
 
 Part 37 - Row of Casks
 
-Row of Casks is a room. "You are by a row of casks."
+Row of Casks is a dark room. "You are by a row of casks."
 Row of Casks is in the Palace.
 
 East of Row of Casks is Wine Cellar.
 
-[dark]
 [secret passageway here to #67]
 
 Part 38 - Wine Cellar
 
-Wine Cellar is a room. "You are in a wine cellar."
+Wine Cellar is a dark room. "You are in a wine cellar."
 Wine Cellar is in the Palace.
 
 North of Wine Cellar is Dungeons of the Palace.
 West of Wine Cellar is row of Casks.
 
-[dark]
 [rats - remove by bread or apples]
 
 
@@ -823,7 +821,7 @@ Some seeds are in Sacks on the Upper Floor. [hidden in sacks]
 
 Part 23 - Lamp
 
-A lamp is in Gamekeeper's Cottage.
+A lamp is in Gamekeeper's Cottage. A lamp is lit.
 
 Part 24 - Bread
 
