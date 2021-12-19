@@ -1,10 +1,10 @@
-"The Mystery of Silver Mountain"
+"Mystery of Silver Mountain"
 
 Volume 1 - Meta
 
 Book 1 - Bibliography
 
-The story title is "The Mystery of Silver Mountain".
+The story title is "Mystery of Silver Mountain".
 The story author is "Phil Howlett".
 The story headline is "A computer adventure game".
 The story genre is "Fantasy".
@@ -41,6 +41,7 @@ Book 2 - Characters
 
 Part 1 - Player
 
+[Start location: Crossroads]
 The player is in the Crossroads.
 
 [carry capacity is 13]
@@ -717,8 +718,6 @@ Part 80 - White Cottage
 White Cottage is a room. "You are in a white cottage."
 White Cottage is in the Village.
 
-[pot containing coins]
-
 West of White Cottage is Village of Rustic Houses.
 Up from White Cottage is Attic Bedroom.
 
@@ -734,25 +733,27 @@ A sheet is in the Attic Bedroom. [hidden on bed]
 
 Part 3 - Boots
 
-Some boots are in the Cupboard.
-
+Some boots are in the Cupboard. "In the back of the cupboard you can see some boots."
 [invisible boots to hide from Grarg patrols]
 
 Part 4 - Horseshoe
 
-A horseshoe is in the Stable. [nailed on door]
+A horseshoe is in the Stable. "Nailed to the wall is a horseshoe."
+[nailed on door]
 
 Part 5 - Apples
 
-Some apples are in the Orchard. Apples are edible.
+Some apples are in the Orchard. 
+Apples are edible.
 
 Part 6 - Bucket
 
-A bucket is in Top of a Deep Well. [leaks]
+A bucket is in Top of a Deep Well. "Resting on top of the well is a bucket." 
+[leaks]
 
 Part 7 - Axe
 
-An axe is in Woodman's Hut.
+An axe is in Woodman's Hut. "Leaning against the wall is an axe."
 
 Part 8 - Boat
 
@@ -761,8 +762,7 @@ A boat is in Edge of an Icy Lake.
 Part 9 - Phial
 
 A phial is in Kitchens of the Palace.
-
-[label reads 'poison']
+The description of a phial is "It has a small label with the words 'POISON' inscribed on it."
 
 Part 10 - Reeds
 
@@ -774,11 +774,11 @@ A bone is in Half-dug Grave.
 
 Part 12 - Shield
 
-A shield is in Misty Pool.
+A shield is in Misty Pool. [hidden until pool is drained]
 
 Part 13 - Planks
 
-Some planks are in Mountain Hut.
+Some planks are in Mountain Hut. "Leaning against the back wall are some planks of wood."
 
 Part 14 - Rope
 
@@ -790,9 +790,9 @@ A ring is in Narrow Passage.
 
 Part 16 - Jug
 
-A jug is in Old Kiln. [hidden in kiln][fill up from stream]
-
-[ if fill up in lake then capsize]
+A jug is in Old Kiln. [hidden in kiln]
+[fill up from stream]
+[if fill up in lake then capsize]
 
 Part 17 - Net
 
@@ -827,7 +827,8 @@ A lamp is in Gamekeeper's Cottage.
 
 Part 24 - Bread
 
-Some bread is in White cottage. The bread is edible.
+Some bread is in White cottage.
+The bread is edible.
 
 Part 25 - Brooch
 
@@ -835,7 +836,7 @@ A broach is in Palace Battlements.
 
 Part 26 - Matches
 
-Some matches are nowhere. [in the pocket of the uniform] 
+Some matches are in the uniform. [hidden]
 
 Part 27 - Stone of Destiny
 
@@ -846,5 +847,7 @@ Part 28 - Apple
 [An individual apple]
 
 Book 6 - Backdrops
+
+[scenery objects but region wide]
 
 Volume 4 - Testing and Debugging - Not for release
