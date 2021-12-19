@@ -35,7 +35,7 @@ Volume 3 - World
 
 Book 1 - Intro
 
-After printing the banner text, say "[line break]An adaption from the original game of [']The Mystery of Silver Mountain['] designed by Graham Round and published by Usborne in 1984. You can download the original book from the publisher's website located here: [italic type]https://usborne.com/au/books/computer-and-coding-books[roman type].[line break]"
+After printing the banner text, say "[line break]An adaption from the original game of 'The Mystery of Silver Mountain' designed by Graham Round and published by Usborne in 1984. You can download the original book from the publisher's website located here: [italic type]https://usborne.com/au/books/computer-and-coding-books[roman type].[line break]"
 
 Book 2 - Characters
 
@@ -692,6 +692,8 @@ Crossroads is a room. "You are at a Crossroads".
 East of Crossroads is Winding Road.
 West of Crossroads is Eastern end of a Bridge.
 
+Instead of going south in the Crossroads, say "There is no turning back now."
+	
 Part 78 - Winding Road
 
 Winding Road is a room. "You are on a winding road."
@@ -773,7 +775,7 @@ A bone is in Half-dug Grave.
 Part 12 - Shield
 
 A shield is in Misty Pool. [hidden until pool is drained]
-A shield is wearable.
+A shield is wearable. [should be held not worn]
 
 Part 13 - Planks
 
@@ -801,7 +803,7 @@ A net is in Beached Ketch. [hidden in ketch]
 Part 18 - Sword
 
 A sword is in Guard Room.
-A sword is wearable.
+A sword is wearable. [should be wield, not worn]
 
 Part 19 - Silver Plate
 
@@ -829,8 +831,8 @@ A lamp is in Gamekeeper's Cottage. A lamp is lit.
 
 Part 24 - Bread
 
-Some bread is in White cottage.
-The bread is edible.
+Some bread is in White cottage. "You see some stale bread."
+Instead of eating bread, say "You are about to bite down on a piece of stale bread but a small patch of mould catches your eye. You have second thoughts about eating the bread."
 
 Part 25 - Brooch
 
