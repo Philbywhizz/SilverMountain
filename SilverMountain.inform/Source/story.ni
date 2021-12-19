@@ -41,10 +41,8 @@ Book 2 - Characters
 
 Part 1 - Player
 
-[Start location: Crossroads]
 The player is in the Crossroads.
-
-[carry capacity is 13]
+The carrying capacity of the player is 13.
 
 Part 2 - Grarg
 
@@ -732,6 +730,8 @@ A sheet is in the Attic Bedroom. [hidden on bed]
 Part 3 - Boots
 
 Some boots are in the Cupboard. "In the back of the cupboard you can see some boots."
+Boots are wearable.
+
 [invisible boots to hide from Grarg patrols]
 
 Part 4 - Horseshoe
@@ -755,7 +755,7 @@ An axe is in Woodman's Hut. "Leaning against the wall is an axe."
 
 Part 8 - Boat
 
-A boat is in Edge of an Icy Lake.
+A boat is a vehicle in Edge of an Icy Lake.
 
 Part 9 - Phial
 
@@ -773,6 +773,7 @@ A bone is in Half-dug Grave.
 Part 12 - Shield
 
 A shield is in Misty Pool. [hidden until pool is drained]
+A shield is wearable.
 
 Part 13 - Planks
 
@@ -785,6 +786,7 @@ A rope is in High Pinnacle.
 Part 15 - Ring
 
 A ring is in Narrow Passage.
+A ring is wearable.
 
 Part 16 - Jug
 
@@ -799,6 +801,7 @@ A net is in Beached Ketch. [hidden in ketch]
 Part 18 - Sword
 
 A sword is in Guard Room.
+A sword is wearable.
 
 Part 19 - Silver Plate
 
@@ -807,6 +810,7 @@ A silver plate is in Silver Throne Room.
 Part 20 - Uniform
 
 A uniform is in Banquet Hall.
+A uniform is wearable.
 
 [pocket contains matches]
 [disguise from grargs]
@@ -830,7 +834,8 @@ The bread is edible.
 
 Part 25 - Brooch
 
-A broach is in Palace Battlements.
+A brooch is in Palace Battlements.
+A brooch is wearable.
 
 Part 26 - Matches
 
