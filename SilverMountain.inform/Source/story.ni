@@ -21,6 +21,12 @@ After printing the banner text, say "[line break]An adaption from the original g
 
 Volume - Definitions
 
+Volume - Rules
+
+Volume - Actions
+
+Volume - Testing and Debugging - Not for release
+
 Volume - Characters
 
 Book 1 - Player
@@ -834,7 +840,3 @@ The Stone of Destiny is in Silver Chamber.
 Book 28 - Apple
 
 [An individual apple]
-
-Volume - Actions
-
-Volume - Testing and Debugging - Not for release
