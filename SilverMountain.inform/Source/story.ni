@@ -1,9 +1,8 @@
 "Mystery of Silver Mountain"
 
-Release along with a website.
-Release along with an interpreter.
+Volume - Configuration
 
-Volume - Bibliography
+Book - Bibliography
 
 The story title is "Mystery of Silver Mountain".
 The story author is "Phil Howlett".
@@ -13,19 +12,24 @@ The release number is 1.
 The story description is "An adaption from the original game of [']The Mystery of Silver Mountain['] coding book located at https://usborne.com/au/books/computer-and-coding-books".
 The story creation year is 2021.
 
-Volume - Out of World Material
+Book - Release
+
+Release along with a website.
+Release along with an interpreter.
+
+Volume - Mechanics
+
+Book - Out of World Material
 
 Book - Intro
 
 After printing the banner text, say "[line break]An adaption from the original game of 'The Mystery of Silver Mountain' designed by Graham Round and published by Usborne in 1984. You can download the original book from the publisher's website located here: [italic type]https://usborne.com/au/books/computer-and-coding-books[roman type].[line break]"
 
-Volume - Definitions
+Book - Rules
 
-Volume - Rules
+Book - Actions
 
-Volume - Actions
-
-Volume - Testing and Debugging - Not for release
+Book - Testing and Debugging - Not for release
 
 Volume - Characters
 
@@ -34,71 +38,76 @@ Book 1 - Player
 The player is in the Crossroads.
 The carrying capacity of the player is 13.
 
-Book 2 - Grarg
+Volume - Locations
 
-[located in banquet hall]
+Book - Village
 
-Book 3 - Pony
-
-[travels between Overgrown Track and Rust Gates by giving him an apple]
-
-Book 4 - Hermit
-
-[located in Side of a wooded valley]
-
-[takes brooch, tells you how many rings of the bell are needed]
-
-Book 5 - Ogban
-
-[located in Ogban's chambers]
-
-Book 6 - Goblin Guardian
-
-[located at huge fallen oak]
-[spirit freed when playing reed]
-
-Book 7 - Wizard
-
-[located in wizard lair]
-
-Book 8 - Troll
-
-[located on the bridge]
-[won't let you cross unless you pay a toll]
-
-Book 9 - Ogban's Boar
-
-[located in barren countryside, blocking path to the north]
-[eats anything you give it]
-
-Book 10 - Hound
-
-[located at palace gates blocking entry to the castle]
-[eats anything you give it]
-[bone distracts hound]
-
-Volume - Locations 
-
-Book - Regions
-
-The island is a region.
-The Palace is a region.
-The Graveyard is a region.
 The Village is a region.
 
-Book - Backdrops
+Book - Island
+
+The Island is a region.
+
+Book - Lake
+
+The Lake is a region.
+
+Book - Palace
+
+The Palace is a region.
+
+Book - Cemetery
+
+The Cemetery is a region.
+
+Book - Mountain
+
+The Mountain is a region.
+
+Book - Well
+
+The Well is a region.
+
+Book - Upper Valley
+
+The Upper Valley is a region.
+
+Book - Lower Valley
+
+The Lower Valley is a region.
+
+Book - Woods
+
+The Woods is a region.
+
+Book - Forest
+
+The Forest is a region. Crossroads are in the Forest.
+
+Part - Crossroads
+
+Crossroads is a room. "You are at a Crossroads".
+
+East of Crossroads is Winding Road.
+West of Crossroads is Eastern end of a Bridge.
+
+Instead of going south in the Crossroads, say "There is no turning back now."
+
+[ ---------------------------------------------------------- ]
+[ Stuff below needs to be sorted in the above headings ]
+[ ---------------------------------------------------------- ]
 
 Book 1 - Half-dug Grave
 
 Half-dug Grave is a room. "You are in a half-dug grave."
-Half-dug Grave is in the Graveyard.
+Half-dug Grave is in the Cemetery.
 
 East of Half-dug Grave is Goblin Graveyard.
 
 Book 2 - Goblin Graveyard
 
 Goblin Graveyard is a room. "You are in the goblin graveyard."
-Goblin Graveyard is in the Graveyard.
+Goblin Graveyard is in the Cemetery.
 
 East of Goblin Graveyard is Hollow Tomb.
 South of Goblin Graveyard is Rusty Gates.
@@ -107,31 +116,33 @@ West of Goblin Graveyard is Half-dug Grave.
 Book 3 - Hollow tomb
 
 Hollow Tomb is a room. "You are in a hollow tomb."
-Hollow Tomb is in the Graveyard.
+Hollow Tomb is in the Cemetery.
 
-East of Hollow tomb is Stalacites Stalagmites. [rubble blocks path]
+East of Hollow tomb is Stalactites Stalagmites. [rubble blocks path]
 West of Hollow Tomb is Goblin Graveyard.
 
 Book 4 - Stalactites and Stalagmites
 
-Stalacites Stalagmites is a room. "You are near some stalactites and stalagmites."
+Stalactites Stalagmites is a room. "You are near some stalactites and stalagmites."
+Stalactites Stalagmites is in the mountain.
 
-East of Stalacites Stalagmites is Maze of Tunnels.
-West of Stalacites Stalagmites is Hollow tomb. [rubble blocks path] [too steep]
+East of Stalactites Stalagmites is Maze of Tunnels.
+West of Stalactites Stalagmites is Hollow tomb. [rubble blocks path] [too steep]
 
 Book 5 - Maze of Tunnels
 
 Maze of Tunnels is a room. "You are in a maze of tunnels."
+Maze of Tunnels is in the mountain.
 
 East of Maze of Tunnels is Vaulted Cavern.
-West of Maze of Tunnels is Stalacites Stalagmites. 
+West of Maze of Tunnels is Stalactites Stalagmites. 
 
 [there is a maze here]
-
 
 Book 6 - Vaulted Cavern
 
 Vaulted Cavern is a room. "You are in a vaulted cavern."
+Vaulted Cavern is in the mountain.
 
 East of Vaulted Cavern is High Glass Gates.
 South of Vaulted Cavern is Inscribed Cavern.
@@ -140,6 +151,7 @@ West of Vaulted Cavern is Maze of Tunnels.
 Book 7 - High Glass Gates
 
 High Glass Gates is a room. "You are near some high glass gates."
+High Glass Gates is in the mountain.
 
 East of High Glass Gates is Entrance Hall to the Palace. [hound blocks east]
 South of High Glass Gates is Ornate Fountain.
@@ -180,13 +192,14 @@ South of Marshy Inlet is Old Kiln.
 Book 12 - Rusty Gates
 
 Rusty Gates is a room. "You are near some rusty gates."
-Rusty Gates is in the Graveyard.
+Rusty Gates is in the Cemetery.
 
 North of Rusty Gates is Goblin Graveyard.
 
 Book 13 - Gamekeeper's Cottage
 
 Gamekeeper's Cottage is a room. "You are in the gamekeeper's cottage."
+Gamekeeper's Cottage is in the upper valley.
 
 East of Gamekeeper's Cottage is Misty Pool.
 South of Gamekeeper's Cottage is Disused Waterwheel.
@@ -194,6 +207,7 @@ South of Gamekeeper's Cottage is Disused Waterwheel.
 Book 14 - Misty Pool
 
 Misty Pool is a room. "You are by a misty pool."
+Misty Pool is in the upper valley.
 
 South of Misty Pool is Sluice Gates.
 West of Misty Pool is Gamekeeper's Cottage. 
@@ -201,6 +215,7 @@ West of Misty Pool is Gamekeeper's Cottage.
 Book 15 - High-walled Garden
 
 High-walled Garden is a room. "You are in a high-walled garden."
+High-walled Garden is in the mountain.
 
 East of High-walled Garden is nowhere. [plant a vine to climb up to go north]
 South of High-walled Garden is Gap between some Boulders.
@@ -208,6 +223,7 @@ South of High-walled Garden is Gap between some Boulders.
 Book 16 - Inscribed Cavern
 
 Inscribed Cavern is a room. "You are in an inscribed cavern."
+Inscribed Cavern is in the mountain.
 
 [writings on wall to show maze solution]
 
@@ -217,6 +233,8 @@ West of Inscribed Cavern is High-walled Garden.
 Book 17 - Ornate Fountain
 
 Ornate Fountain is a room. "You are by an ornate fountain."
+Ornate Fountain is in the mountain.
+ 
 North of Ornate Fountain is High Glass Gates.
 
 Book 18 - Dank Corridor
@@ -256,12 +274,14 @@ South of Old Kiln is Island shore.
 Book 22 - Overgrown Track
 
 Overgrown Track is a room. "You are on an overgrown track."
+Overgrown Track is in the upper valley.
 
 East of Overgrown Track is Disused Waterwheel.
  
 Book 23 - Disused Waterwheel
 
 Disused Waterwheel is a room. "You are by a disused waterwheel."
+Disused Waterwheel is in the upper valley.
 
 South of Disused Waterwheel is Barren Countryside.
 West of Disused Waterwheel is Overgrown Track.
@@ -270,6 +290,7 @@ North of Disused Waterwheel is Gamekeeper's Cottage.
 Book 24 - Sluice Gates
 
 Sluice Gates is a room. "You are by some sluice gates."
+Sluice Gates is in the upper valley.
 
 [handle here]
 
@@ -278,6 +299,7 @@ North of Sluice Gates is Misty Pool.
 Book 25 - Gap between some Boulders
 
 Gap between some Boulders is a room. "You are in a gap between some boulders."
+Gap between some Boulders is in the mountain.
 
 North of Gap between some Boulders is High-walled Garden.
 East of Gap between some Boulders is Perilous Path.
@@ -286,6 +308,7 @@ South of Gap between some Boulders is Frozen Pond.
 Book 26 - Perilous Path
 
 Perilous Path is a room. "You are on a perilous path."
+Perilous Path is in the mountain.
 
 East of Perilous Path is Silver Bell in the Rock.
 West of Perilous Path is Gap between some Boulders.
@@ -293,6 +316,7 @@ West of Perilous Path is Gap between some Boulders.
 Book 27 - Silver Bell in the Rock
 
 Silver Bell in the Rock is a room. "You are by a silver bell in the rock."
+Silver Bell in the Rock is in the mountain.
 
 West of Silver Bell in the Rock is Perilous Path. 
 
@@ -338,6 +362,7 @@ West from Beached Ketch is Island Shore.
 Book 33 - Barren Countryside
 
 Barren Countryside is a room. "You are in some barren countryside."
+Barren Countryside is in the lower valley.
 
 North of Barren Countryside is Disused Waterwheel.
 South of Barren Countryside is Outside a Windmill.
@@ -345,12 +370,14 @@ South of Barren Countryside is Outside a Windmill.
 Book 34 - Sacks on the Upper Floor
 
 Sacks on The Upper Floor is a room. "You are by some sacks on the upper floor."
+Sacks on The Upper Floor is in the lower valley.
 
 Down from The Upper Floor is Lower Floor of the Mill.
 
 Book 35 - Frozen Pond
 
 Frozen Pond is a room. "You are on a small frozen pond."
+Frozen Pond is in the mountain.
 
 North of Frozen Pond is Gap between some Boulders.
 East of Frozen Pond is Mountain Hut.
@@ -362,6 +389,7 @@ Down from Frozen Pond is nowhere.
 Book 36 - Mountain Hut
 
 Mountain Hut is a room. "You are near a mountain hut."
+Mountain Hut is in the mountain.
 
 South of Mountain Hut is Scree Slope.
 West of Mountain Hut is Frozen Pond.
@@ -406,6 +434,7 @@ South of Dusty Library is Silver Throne Room.
 Book 41 - Rough Water
 
 Rough Water is a room. "You are in some rough water."
+Rough Water is in the lake.
 
 North of Rough Water is Island Shore.
 South of Rough Water is Middle of the Lake.
@@ -413,12 +442,14 @@ South of Rough Water is Middle of the Lake.
 Book 42 - Ploughed Field
 
 Ploughed Field is a room. "You are in a ploughed field."
+Ploughed Field is in the lower valley.
 
 East of Ploughed Field is Outside a Windmill.
 
 Book 43 - Outside a Windmill
 
 Outside a Windmill is a room. "You are outside a windmill."
+Outside a Windmill is in the lower valley.
 
 North of Outside a Windmill is Barren Countryside.
 East of Outside a Windmill is Lower Floor of the Mill.
@@ -428,6 +459,7 @@ West of Outside a Windmill is Ploughed Field.
 Book 44 - Lower Floor of the Mill
 
 Lower Floor of the Mill is a room. "You are on the lower floor of the mill."
+Lower Floor of the Mill is in the lower valley.
 
 West of Lower Floor of the Mill is Outside a Windmill.
 Up from Lower Floor of the Mill is Sacks on The Upper Floor.
@@ -435,6 +467,7 @@ Up from Lower Floor of the Mill is Sacks on The Upper Floor.
 Book 45 - Icy Path
 
 Icy Path is a room. "You are on an icy path."
+Icy Path is in the mountain.
 
 North from Icy Path is nowhere.
 South from Icy Path is nowhere.
@@ -444,6 +477,7 @@ Down from Icy Path is Glacier.
 Book 46 - Scree Slope
 
 Scree Slope is a room. "You are on a scree slope."
+Scree Slope is in the mountain.
 
 North from Scree Slope is Mountain Hut.
 South from Scree Slope is Huge Fallen Oak.
@@ -485,6 +519,7 @@ West of Silver Throne Room is Mosaic floored Hall.
 Book 51 - Middle of the Lake
 
 Middle of the Lake is a room. "You are in the middle of the lake."
+Middle of the Lake is in the lake.
 
 North of Middle of the Lake is Rough Water.
 East of Middle of the Lake is Edge of an Icy Lake.
@@ -492,6 +527,7 @@ East of Middle of the Lake is Edge of an Icy Lake.
 Book 52 - Edge of an Icy Lake
 
 Edge of an Icy Lake is a room. "You are on the edge of an icy lake."
+Edge of an Icy Lake is in the lower valley.
 
 East of Edge of an Icy Lake is Pitted Track.
 West of an Edge of an Icy Lake is Middle of the Lake. 
@@ -499,6 +535,7 @@ West of an Edge of an Icy Lake is Middle of the Lake.
 Book 53 - Pitted Track
 
 Pitted Track is a room. "You are on a pitted track."
+Pitted Track is in the lower valley.
 
 North of Pitted Track is Outside a Windmill.
 South of Pitted Track is Woodman's Hut.
@@ -507,12 +544,14 @@ West of Pitted Track is Edge of an Icy Lake.
 Book 54 - High Pinnacle
 
 High Pinnacle is a room. "You are on a high pinnacle."
+High Pinnacle is in the mountain.
 
 East of High Pinnacle is Glacier.
 
 Book 55 - Above a Glacier
 
 Glacier is a room. "You are above a glacier."
+Glacier is in the mountain.
 
 North of Glacier is Icy Path.
 West of Glacier is High Pinnacle.
@@ -521,6 +560,7 @@ Up from Glacier is nowhere.
 Book 56 - Huge Fallen Oak
 
 Huge Fallen Oak is a room. "You are near a huge fallen oak."
+Huge Fallen Oak is in the forest.
 
 South of Huge Fallen Oak is Deep Dark Wood.
 North of Huge Fallen Oak is nowhere. [Blocked by goblin guardian]
@@ -561,6 +601,7 @@ South of Cupboard is Attic Bedroom.
 Book 61 - Narrow Passage
 
 Narrow Passage is a room. "You are in a narrow passage."
+Narrow Passage is in the well.
 
 East of Narrow Passage is Cave.
 South of Narrow Passage is Damp Well Bottom.
@@ -568,6 +609,7 @@ South of Narrow Passage is Damp Well Bottom.
 Book 62 - Cave
 
 Cave is a room. "You are in a small cave."
+Cave is in the well.
 
 South of Cave is Top of a Deep Well.
 West of Cave is Narrow Passage.
@@ -575,6 +617,7 @@ West of Cave is Narrow Passage.
 Book 63 - Woodman's Hut
 
 Woodman's Hut is a room. "You are in a woodman's hut."
+Woodman's Hut is in the woods.
 
 North of Woodman's Hut is Pitted Track.
 East of Woodman's Hut is Side of a Wooded Valley.
@@ -583,6 +626,7 @@ South of Woodman's Hut is Burnt-out Campfire.
 Book 64 - Side of a Wooded Valley
 
 Side of a Wooded Valley is a room. "You are on the side of a wooded valley."
+Side of a Wooded Valley is in the woods.
 
 East of Side of a Wooded Valley is Stream in a Valley Bottom.
 West of Side of a Wooded Valley is Woodman's Hut.
@@ -590,6 +634,7 @@ West of Side of a Wooded Valley is Woodman's Hut.
 Book 65 - Stream in a Valley Bottom
 
 Stream in a Valley Bottom is a room. "You are near a stream in a valley bottom."
+Stream in a Valley Bottom is in the woods.
 
 South of Stream in a Valley Bottom is Western end of a Bridge. 
 West of  Stream in a Valley Bottom is Side of a Wooded Valley.
@@ -597,6 +642,7 @@ West of  Stream in a Valley Bottom is Side of a Wooded Valley.
 Book 66 - Deep Dark Wood
 
 Deep Dark Wood is a room. "You are in a deep dark wood."
+Deep Dark Wood is in the forest.
 
 North of Deep Dark Wood is Huge Fallen Oak.
 East of Deep Dark Wood is Shady Hollow.
@@ -604,6 +650,7 @@ East of Deep Dark Wood is Shady Hollow.
 Book 67 - Shady Hollow
 
 Shady Hollow is a room. "You are in a shady hollow."
+Shady Hollow is in the forest.
 
 East of Shady Hollow is Ancient Stone Circle.
 West of Shady Hollow is Deep Dark Wood.
@@ -611,6 +658,7 @@ West of Shady Hollow is Deep Dark Wood.
 Book 68 - Ancient Stone Circle
 
 Ancient Stone Circle is a room. "You are by an ancient stone circle."
+Ancient Stone Circle is in the forest.
 
 [9 stones]
 East of Ancient Stone Circle is Stable.
@@ -636,18 +684,22 @@ Down from Attic Bedroom is White Cottage.
 Book 71 - Damp Well Bottom
 
 Damp Well Bottom is a room. "You are in a damp well bottom."
+Damp Well is in the well.
 
 North of Damp Well Bottom is nowhere. [blocked by loose bricks]
 
 Book 72 - Top of a Deep Well
 
 Top of a Deep Well is a room. "You are by the top of a deep well."
+Top of a Deep Well is in woods.
 
 East of Top of a Deep Well is Burnt-out Campfire.
+North of Top of a Deep Well is nowhere.
 
 Book 73 - Burnt-out Campfire
 
 Burnt-out Campfire is a room. "You are by a burnt-out campfire."
+Burnt-out Campfire is in woods.
 
 North of Burnt-out Campfire is Woodman's Hut.
 East of Burnt-out Campfire is Orchard.
@@ -656,6 +708,7 @@ West of Burnt-out Campfire is Top of a Deep Well.
 Book 74 - Orchard
 
 Orchard is a room. "You are in a small orchard."
+Orchard is in woods.
 
 East of Orchard is Western end of a Bridge.
 West of Orchard is Burnt-out Campfire.
@@ -663,6 +716,7 @@ West of Orchard is Burnt-out Campfire.
 Book 75 - Western end of a Bridge
 
 Western end of a Bridge is a room. "You are at the western end of a bridge."
+Western end of a Bridge is in the woods.
 
 North of Western end of a Bridge is Stream in a Valley Bottom.
 East of Western end of a Bridge is Eastern end of a Bridge. [blocked by troll]
@@ -671,22 +725,15 @@ West of Western end of a Bridge is Orchard.
 Book 76 - Eastern end of a Bridge
 
 Eastern end of a Bridge is a room. "You are at the eastern end of a bridge."
+Eastern end of a Bridge is in the forest.
 
 East of Eastern end of a Bridge is Crossroads. 
 West of Eastern end of a Bridge is Western end of a Bridge. [blocked by troll]
 
-Book 77 - Crossroads
-
-Crossroads is a room. "You are at a Crossroads".
-
-East of Crossroads is Winding Road.
-West of Crossroads is Eastern end of a Bridge.
-
-Instead of going south in the Crossroads, say "There is no turning back now."
-	
 Book 78 - Winding Road
 
 Winding Road is a room. "You are on a winding road."
+Winding Road is in the forest.
 
 North of Winding Road is Ancient Stone Circle.
 East of Winding Road is Village of Rustic Houses.
