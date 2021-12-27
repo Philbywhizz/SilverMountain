@@ -38,7 +38,7 @@ Book 1 - Player
 The player is in the Crossroads.
 The carrying capacity of the player is 13.
 
-Volume - Locations
+Volume - World
 
 Book - Village
 
@@ -58,7 +58,40 @@ The Palace is a region.
 
 Book - Cemetery
 
-The Cemetery is a region.
+The Cemetery is a region. The Half-dug Grave, Goblin Graveyard, Hollow Tomb, Rusty Gates are in the Cemetery.
+
+Part - Rusty Gates
+
+Rusty Gates is a room. "You are near some rusty gates."
+
+North of Rusty Gates is Goblin Graveyard.
+
+A pony is here.
+
+Part - Half-dug Grave
+
+Half-dug Grave is a room. "You are in a half-dug grave."
+
+A bone is here.
+
+Part - Goblin Graveyard
+
+Goblin Graveyard is a room. "You are in the goblin graveyard."
+
+East of Goblin Graveyard is Hollow Tomb.
+West of Goblin Graveyard is Half-dug Grave.
+
+A gravestone is here.
+
+Part - Hollow tomb
+
+Hollow Tomb is a room. "You are in a hollow tomb."
+
+East of Hollow tomb is Stalactites Stalagmites. [rubble blocks path]
+
+Some rubble is here.
+
+Before going east in Hollow tomb: say "A pile of rubble blocks your path" instead.
 
 Book - Mountain
 
@@ -82,7 +115,7 @@ The Woods is a region.
 
 Book - Forest
 
-The Forest is a region. Crossroads are in the Forest.
+The Forest is a region. Crossroads, Eastern end of a Bridge, Winding Road, Ancient Stone Circle, Shady Hollow, Deep Dark Wood, Huge Fallen Oak are in the Forest.
 
 Part - Crossroads
 
@@ -93,33 +126,60 @@ West of Crossroads is Eastern end of a Bridge.
 
 Instead of going south in the Crossroads, say "There is no turning back now."
 
+A statue is here.
+
+Part - Eastern end of a Bridge
+
+Eastern end of a Bridge is a room. "You are at the eastern end of a stone bridge."
+
+West of Eastern end of a Bridge is Western end of a Bridge. [blocked by troll]
+
+A thing called a bridge is here.
+A troll is here.
+
+Before going west in Eastern end of a Bridge: say "The troll won't let you pass unless you pay the toll." instead.
+
+Part - Winding Road
+
+Winding Road is a room. "You are on a winding road."
+
+North of Winding Road is Ancient Stone Circle.
+East of Winding Road is Village of Rustic Houses.
+
+Part - Deep Dark Wood
+
+Deep Dark Wood is a room. "You are in a deep dark wood."
+
+North of Deep Dark Wood is Huge Fallen Oak.
+
+Part - Shady Hollow
+
+Shady Hollow is a room. "You are in a shady hollow."
+
+West of Shady Hollow is Deep Dark Wood.
+
+Part - Ancient Stone Circle
+
+Ancient Stone Circle is a room. "You are by an ancient stone circle."
+
+East of Ancient Stone Circle is Stable.
+West of Ancient Stone Circle is Shady Hollow.
+
+Some stones are here.
+
+Part - Huge Fallen Oak
+
+Huge Fallen Oak is a room. "You are near a huge fallen oak."
+
+North of Huge Fallen Oak is nowhere. [Blocked by goblin guardian]
+
+A ghost is here. "A ghost of a goblin guardian is here".
+
+Before going north in Huge Fallen Oak: say "The goblin guardian prevents you from doing that" instead.
+
 [ ---------------------------------------------------------- ]
 [ Stuff below needs to be sorted in the above headings ]
 [ ---------------------------------------------------------- ]
-
-Book 1 - Half-dug Grave
-
-Half-dug Grave is a room. "You are in a half-dug grave."
-Half-dug Grave is in the Cemetery.
-
-East of Half-dug Grave is Goblin Graveyard.
-
-Book 2 - Goblin Graveyard
-
-Goblin Graveyard is a room. "You are in the goblin graveyard."
-Goblin Graveyard is in the Cemetery.
-
-East of Goblin Graveyard is Hollow Tomb.
-South of Goblin Graveyard is Rusty Gates.
-West of Goblin Graveyard is Half-dug Grave.
-
-Book 3 - Hollow tomb
-
-Hollow Tomb is a room. "You are in a hollow tomb."
-Hollow Tomb is in the Cemetery.
-
-East of Hollow tomb is Stalactites Stalagmites. [rubble blocks path]
-West of Hollow Tomb is Goblin Graveyard.
 
 Book 4 - Stalactites and Stalagmites
 
@@ -188,13 +248,6 @@ Marshy Inlet is a room. "You are by a marshy inlet."
 Marshy Inlet is in the Island.
 
 South of Marshy Inlet is Old Kiln. 
-
-Book 12 - Rusty Gates
-
-Rusty Gates is a room. "You are near some rusty gates."
-Rusty Gates is in the Cemetery.
-
-North of Rusty Gates is Goblin Graveyard.
 
 Book 13 - Gamekeeper's Cottage
 
@@ -557,14 +610,6 @@ North of Glacier is Icy Path.
 West of Glacier is High Pinnacle.
 Up from Glacier is nowhere.
 
-Book 56 - Huge Fallen Oak
-
-Huge Fallen Oak is a room. "You are near a huge fallen oak."
-Huge Fallen Oak is in the forest.
-
-South of Huge Fallen Oak is Deep Dark Wood.
-North of Huge Fallen Oak is nowhere. [Blocked by goblin guardian]
-
 Book 57 - Turret Room with a Slot Machine
 
 Turret Room is a room. "You are in a turret room with a slot machine."
@@ -639,32 +684,6 @@ Stream in a Valley Bottom is in the woods.
 South of Stream in a Valley Bottom is Western end of a Bridge. 
 West of  Stream in a Valley Bottom is Side of a Wooded Valley.
 
-Book 66 - Deep Dark Wood
-
-Deep Dark Wood is a room. "You are in a deep dark wood."
-Deep Dark Wood is in the forest.
-
-North of Deep Dark Wood is Huge Fallen Oak.
-East of Deep Dark Wood is Shady Hollow.
-
-Book 67 - Shady Hollow
-
-Shady Hollow is a room. "You are in a shady hollow."
-Shady Hollow is in the forest.
-
-East of Shady Hollow is Ancient Stone Circle.
-West of Shady Hollow is Deep Dark Wood.
-
-Book 68 - Ancient Stone Circle
-
-Ancient Stone Circle is a room. "You are by an ancient stone circle."
-Ancient Stone Circle is in the forest.
-
-[9 stones]
-East of Ancient Stone Circle is Stable.
-South of Ancient Stone Circle is Winding Road.
-West of Ancient Stone Circle is Shady Hollow.
-
 Book 69 - Stable
 
 Stable is a room. "You are in a small stable."
@@ -719,25 +738,8 @@ Western end of a Bridge is a room. "You are at the western end of a bridge."
 Western end of a Bridge is in the woods.
 
 North of Western end of a Bridge is Stream in a Valley Bottom.
-East of Western end of a Bridge is Eastern end of a Bridge. [blocked by troll]
+[East of Western end of a Bridge is Eastern end of a Bridge. [blocked by troll]]
 West of Western end of a Bridge is Orchard.
-
-Book 76 - Eastern end of a Bridge
-
-Eastern end of a Bridge is a room. "You are at the eastern end of a bridge."
-Eastern end of a Bridge is in the forest.
-
-East of Eastern end of a Bridge is Crossroads. 
-West of Eastern end of a Bridge is Western end of a Bridge. [blocked by troll]
-
-Book 78 - Winding Road
-
-Winding Road is a room. "You are on a winding road."
-Winding Road is in the forest.
-
-North of Winding Road is Ancient Stone Circle.
-East of Winding Road is Village of Rustic Houses.
-West of Winding Road is Crossroads.
 
 Book 79 - Village of Rustic Houses
 
@@ -804,10 +806,6 @@ The description of a phial is "It has a small label with the words 'POISON' insc
 Book 10 - Reeds
 
 Some reeds are in Marshy Inlet.
-
-Book 11 - Bone
-
-A bone is in Half-dug Grave.
 
 Book 12 - Shield
 
