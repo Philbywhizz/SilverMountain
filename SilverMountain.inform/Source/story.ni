@@ -72,6 +72,103 @@ Book - The Map
 
 Part - Rooms
 
+Chapter 1 - Half-dug Grave
+
+Half-dug Grave is a room. "You are in a half-dug grave."
+East of Half-dug Grave is Goblin Graveyard.
+
+Section - Bone
+
+A bone is here.
+
+Chapter 2 - Goblin Graveyard
+
+Goblin Graveyard is a room. "You are in the goblin graveyard."
+
+East of Goblin Graveyard is Hollow Tomb.
+West of Goblin Graveyard is Half-dug Grave.
+South of Goblin Graveyard is Rusty Gates.
+
+Section - Gravestone
+
+A gravestone is here.
+
+Chapter 3 - Hollow tomb
+
+Hollow Tomb is a room. "You are in a hollow tomb."
+
+East of Hollow tomb is Stalactites Stalagmites. [rubble blocks path]
+West of Hollow tomb is Goblin Graveyard.
+
+Before going east in Hollow tomb: say "A pile of rubble blocks your path" instead.
+
+Section - Rubble
+
+Some rubble is here.
+
+Chapter 4 - Stalactites and Stalagmites
+
+Stalactites Stalagmites is a room. "You are near some stalactites and stalagmites."
+
+East of Stalactites Stalagmites is Maze of Tunnels.
+West of Stalactites Stalagmites is Hollow tomb. [rubble blocks path] [too steep]
+
+Chapter 5 - Maze of Tunnels
+
+Maze of Tunnels is a room. "You are in a maze of tunnels."
+
+East of Maze of Tunnels is Vaulted Cavern.
+West of Maze of Tunnels is Stalactites Stalagmites. 
+
+Section - Maze
+
+[there is a maze here]
+
+Chapter 6 - Vaulted Cavern
+
+Vaulted Cavern is a room. "You are in a vaulted cavern."
+
+East of Vaulted Cavern is High Glass Gates.
+South of Vaulted Cavern is Inscribed Cavern.
+West of Vaulted Cavern is Maze of Tunnels.
+
+Chapter 7 - High Glass Gates
+
+High Glass Gates is a room. "You are near some high glass gates."
+
+East of High Glass Gates is Entrance Hall to the Palace. [hound blocks east]
+South of High Glass Gates is Ornate Fountain.
+West of High Glass Gates is Vaulted Cavern.
+
+Section - Hound
+
+Chapter 8 - Entrance Hall to the Palace
+
+Entrance Hall to the Palace is a room. "You are in the entrance hall to the palace."
+
+South of Entrance Hall to the Palace is Dank Corridor.
+East of Entrance Hall to the Palace is Grarg Sentry Post.
+West of Entrance Hall to the Palace is nowhere. [hound blocks west].
+
+Chapter 9 - Grarg Sentry Post
+
+Grarg Sentry Post is a room. "You are by a grarg sentry post."
+
+East of Grarg Sentry Post is Guard Room.
+West of Grarg Sentry Post is Entrance Hall to the Palace.
+
+Chapter 10 - Guard Room
+
+Guard Room is a room. "You are in the guard room."
+
+South of Guard Room is Kitchens of the Palace.
+West of Guard Room is Grarg Sentry Post.
+
+Section - Sword
+
+A sword is here.
+A sword is wearable. [should be wield, not worn]
+
 Part - Region
 
 Volume  - Debugging (not for release)
@@ -85,31 +182,6 @@ Rusty Gates is a room. "You are near some rusty gates."
 North of Rusty Gates is Goblin Graveyard.
 
 A pony is here.
-
-Part - Half-dug Grave
-
-Half-dug Grave is a room. "You are in a half-dug grave."
-
-A bone is here.
-
-Part - Goblin Graveyard
-
-Goblin Graveyard is a room. "You are in the goblin graveyard."
-
-East of Goblin Graveyard is Hollow Tomb.
-West of Goblin Graveyard is Half-dug Grave.
-
-A gravestone is here.
-
-Part - Hollow tomb
-
-Hollow Tomb is a room. "You are in a hollow tomb."
-
-East of Hollow tomb is Stalactites Stalagmites. [rubble blocks path]
-
-Some rubble is here.
-
-Before going east in Hollow tomb: say "A pile of rubble blocks your path" instead.
 
 Part - Crossroads
 
@@ -174,60 +246,6 @@ Before going north in Huge Fallen Oak: say "The goblin guardian prevents you fro
 [ ---------------------------------------------------------- ]
 [ Stuff below needs to be sorted in the above headings ]
 [ ---------------------------------------------------------- ]
-
-Book 4 - Stalactites and Stalagmites
-
-Stalactites Stalagmites is a room. "You are near some stalactites and stalagmites."
-
-East of Stalactites Stalagmites is Maze of Tunnels.
-West of Stalactites Stalagmites is Hollow tomb. [rubble blocks path] [too steep]
-
-Book 5 - Maze of Tunnels
-
-Maze of Tunnels is a room. "You are in a maze of tunnels."
-
-East of Maze of Tunnels is Vaulted Cavern.
-West of Maze of Tunnels is Stalactites Stalagmites. 
-
-[there is a maze here]
-
-Book 6 - Vaulted Cavern
-
-Vaulted Cavern is a room. "You are in a vaulted cavern."
-
-East of Vaulted Cavern is High Glass Gates.
-South of Vaulted Cavern is Inscribed Cavern.
-West of Vaulted Cavern is Maze of Tunnels.
-
-Book 7 - High Glass Gates
-
-High Glass Gates is a room. "You are near some high glass gates."
-
-East of High Glass Gates is Entrance Hall to the Palace. [hound blocks east]
-South of High Glass Gates is Ornate Fountain.
-West of High Glass Gates is Vaulted Cavern.
-
-Book 8 - Entrance Hall to the Palace
-
-Entrance Hall to the Palace is a room. "You are in the entrance hall to the palace."
-
-South of Entrance Hall to the Palace is Dank Corridor.
-East of Entrance Hall to the Palace is Grarg Sentry Post.
-West of Entrance Hall to the Palace is nowhere. [hound blocks west].
-
-Book 9 - Grarg Sentry Post
-
-Grarg Sentry Post is a room. "You are by a grarg sentry post."
-
-East of Grarg Sentry Post is Guard Room.
-West of Grarg Sentry Post is Entrance Hall to the Palace.
-
-Book 10 - Guard Room
-
-Guard Room is a room. "You are in the guard room."
-
-South of Guard Room is Kitchens of the Palace.
-West of Guard Room is Grarg Sentry Post.
 
 Book 11 - Marshy Inlet
 
@@ -759,11 +777,6 @@ A jug is in Old Kiln. [hidden in kiln]
 Book 17 - Net
 
 A net is in Beached Ketch. [hidden in ketch]
-
-Book 18 - Sword
-
-A sword is in Guard Room.
-A sword is wearable. [should be wield, not worn]
 
 Book 19 - Silver Plate
 
